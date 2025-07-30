@@ -172,12 +172,16 @@
   position: sticky;
   top: 0;
   z-index: 10;
+  border-right: 1px solid #dee2e6;
 }
 
 .amortization-table td {
   padding: 0.75rem;
   border-bottom: 1px solid #dee2e6;
   text-align: right;
+  color: #212529;
+  background-color: #fff;
+  border-right: 1px solid #dee2e6;
 }
 
 .amortization-table td:first-child {
@@ -186,11 +190,21 @@
 }
 
 .amortization-table tbody tr:hover {
-  background-color: #f8f9fa;
+  background-color: #f8f9fa !important;
+}
+
+.amortization-table tbody tr:hover td {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
 }
 
 .amortization-table tbody tr:nth-child(even) {
   background-color: #fdfdfd;
+}
+
+.amortization-table tbody tr:nth-child(even) td {
+  background-color: #fdfdfd !important;
+  color: #212529 !important;
 }
 
 @media (max-width: 768px) {

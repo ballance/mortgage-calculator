@@ -1,0 +1,6 @@
+# Copy this file to terraform.tfvars and customize the values
+
+aws_region = "us-east-1"
+domain_name = "amortize.bastionforge.com"
+root_domain = "bastionforge.com"
+bucket_name = "amortize-bastionforge-com-static-site"
